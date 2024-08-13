@@ -39,6 +39,8 @@ public class LoginSteps extends LoginPage {
 			 System.out.println("step failed"+e);
 		}
 	}
+	
+	
 
 	@Then("^the \"([^\"]*)\" link should be visible\\.$")
 	public void the_link_should_be_visible(String link) throws Throwable {
