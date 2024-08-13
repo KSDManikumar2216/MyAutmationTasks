@@ -40,7 +40,6 @@ public class LoginSteps extends LoginPage {
 		}
 	}
 	
-	
 
 	@Then("^the \"([^\"]*)\" link should be visible\\.$")
 	public void the_link_should_be_visible(String link) throws Throwable {
