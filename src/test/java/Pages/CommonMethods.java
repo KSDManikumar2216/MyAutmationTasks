@@ -11,8 +11,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class CommonMethods {
 	WebDriver driver = new ChromeDriver();
 	
+	
 	public void waitUntilElementIsVisible(WebElement element,int timeout) throws InterruptedException {
-
 		WebDriverWait wait = new WebDriverWait(driver, timeout);
 		wait.until(ExpectedConditions.visibilityOf(element));
 	}

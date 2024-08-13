@@ -30,7 +30,6 @@ public class LoginSteps extends LoginPage {
 	}
 }
 	
-
 	@When("^the user views the screen$")
 	public void the_user_views_the_screen() throws Throwable {
 	   try {
